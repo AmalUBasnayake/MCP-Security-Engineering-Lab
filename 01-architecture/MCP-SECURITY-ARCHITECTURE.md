@@ -106,12 +106,13 @@ Security controls at this boundary include:
 The security objective is to limit the blast radius of a compromised MCP server or abused MCP tool.
 
 ```text
-              MCP Server
-                  |
-                  v
-        =========================
-          TRUST BOUNDARY #2
-        =========================
-             /       |                   v        v        v
-         Files   Database   Cloud APIs
+                    MCP Server
+                        |
+                        v
+              +-------------------+
+              | TRUST BOUNDARY #2 |
+              +-------------------+
+                 /       |       \
+                v        v         v
+             Files    Database   Cloud APIs
 ```
