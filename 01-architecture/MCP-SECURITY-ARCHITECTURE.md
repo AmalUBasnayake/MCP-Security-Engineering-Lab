@@ -52,3 +52,78 @@ Every tool invocation must be evaluated according to:
 - Resource access
 - Logging
 - Detection and response
+
+## 4. Trust Boundaries
+
+### 4.1 Trust Boundary #1 — MCP Client to MCP Server
+
+The first trust boundary exists between the MCP client
+and the MCP server.
+
+The MCP client must not automatically trust an MCP server
+or the tools exposed by that server.
+
+Security controls at this boundary include:
+
+- Authentication
+- Authorization
+- Tool allowlisting
+- Input validation
+- Request integrity
+- Rate limiting
+- Audit logging
+
+The security objective is to ensure that only authorized
+clients can invoke approved MCP tools with validated
+parameters.
+
+```text
+AI Application / Agent
+        |
+        v
+    MCP Client
+        |
+        | MCP Protocol
+        v
+=============================
+    TRUST BOUNDARY #1
+=============================
+        |
+        v
+    MCP Server
+
+### 4.2 Trust Boundary #2 - MCP Server to Enterprise Resources
+
+The second trust boundary exists between the MCP server
+and the enterprise resources accessed through MCP tools.
+
+The MCP server must not have unrestricted access to
+downstream resources.
+
+Each tool must operate with the minimum permissions
+required to perform its intended function.
+
+Security controls at this boundary include:
+
+- Least privilege
+- Resource-level authorization
+- Credential isolation
+- Secret protection
+- Input validation
+- Data access controls
+- Network restrictions
+- Audit logging
+
+The security objective is to limit the blast radius of
+a compromised MCP server or abused MCP tool.
+
+```text
+              MCP Server
+                  |
+                  v
+        =========================
+          TRUST BOUNDARY #2
+        =========================
+             /       |       \
+            v        v        v
+         Files   Database   Cloud APIs
