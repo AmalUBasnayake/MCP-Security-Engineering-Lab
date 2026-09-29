@@ -1,0 +1,3 @@
+{"timestamp":"2026-09-28T15:00:00","event_type":"authorization_failure","identity":"test-identity","component":"unknown-component","decision":"DENIED","reason":"component_not_in_allowlist"}
+{"timestamp":"2026-09-28T15:02:00","event_type":"authorization_failure","identity":"test-identity","component":"unknown-component","decision":"DENIED","reason":"component_not_in_allowlist"}
+{"timestamp":"2026-09-28T15:04:00","event_type":"authorization_failure","identity":"test-identity","component":"unknown-component","decision":"DENIED","reason":"component_not_in_allowlist"}
