@@ -5,6 +5,20 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/AmalUBasnayake/MCP-Security-Engineering-Lab"><img src="https://img.shields.io/badge/Project-MCP%20Security%20Engineering%20Lab-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="Project"></a>
+  <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/Protocol-MCP-2563eb?style=for-the-badge" alt="MCP"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12"></a>
+  <a href="https://github.com/AmalUBasnayake/MCP-Security-Engineering-Lab/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-16a34a?style=for-the-badge" alt="MIT License"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Security%20Engineering-15%20Phases-7c3aed?style=flat-square" alt="15 phases">
+  <img src="https://img.shields.io/badge/Validation-5%2F5%20Passed-16a34a?style=flat-square" alt="5 of 5 tests passed">
+  <img src="https://img.shields.io/badge/Detection-DET--01%20%7C%20DET--02-dc2626?style=flat-square" alt="DET-01 and DET-02">
+  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20MCP%20%7C%20SIEM%20%7C%20IR-f59e0b?style=flat-square" alt="AI MCP SIEM IR">
+</p>
+
+<p align="center">
   <strong>Secure • Detect • Respond • Assure</strong>
 </p>
 
@@ -76,8 +90,6 @@ The architecture uses explicit security boundaries around:
 - Telemetry and detection
 - Incident response
 - Evidence and assurance
-
----
 
 ## 🧭 Engineering Model
 
